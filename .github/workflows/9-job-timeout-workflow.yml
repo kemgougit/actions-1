@@ -1,4 +1,4 @@
-name: Job Concurrecy Workflow 
+name: Timeout Workflow 
 
 on:
   workflow_dispatch: 
