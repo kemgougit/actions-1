@@ -1,0 +1,26 @@
+name: Second Workflow
+
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repo
+              uses: actions/checkout@v4
+
+            - name: Install Cowsay Program
+              run: sudo apt-get install cowsay -y
+
+            - name: Execute Cowsay CMD
+              run: cowsay -f snake "Run for cover, I am a SNAKE....RAWR" >> snake.txt
+
+            - name: Test File Exists
+              run: grep -i "snake" snake.txt
+
+            - name: Read File
+              run: cat snake.txt
+
+            - name: List Repo Files
+              run: ls -ltra
+                            
