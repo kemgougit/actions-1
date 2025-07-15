@@ -17,5 +17,4 @@ jobs:
             
             - name: Generate ASCII Artwork
               run: cowsay -f snake "Run for cover, I am a SNAKE....RAWR" >> snake.txt
-              
-              
+                            
