@@ -1,4 +1,4 @@
-name: Multi Jobs Workflow
+name: Artifact For Multi Jobs Workflow
 
 on: 
     push

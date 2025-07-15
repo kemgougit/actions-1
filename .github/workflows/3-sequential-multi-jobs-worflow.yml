@@ -1,4 +1,4 @@
-name: Multi Jobs Workflow
+name: Sequential Jobs Workflow
 
 on: 
     push
