@@ -14,7 +14,7 @@ jobs:
               run: ls -ltra
 
             - name: Executing Shell Script
-              run: bash ascii-script.sh
+              run: sh ascii-script.sh
 
 
 
